@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Hardware Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: right;
+    }
+    header a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+    .box {
+      border: 1px solid #ccc;
+      padding: 15px;
+    }
+    h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .status-btn {
+      margin-right: 5px;
+      background-color: #eee;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+
+    <section class="box">
+      <h2>Homepage</h2>
+      <p><strong>Categories:</strong> Plumbing, Electrical, Tools, Construction, etc.</p>
+      <div style="background-color:#eee; height:100px;">Featured promos / discounts</div>
+      <input type="text" placeholder="Search products..." />
+      <br><br>
+      <table align="side"border="1 cellspacing="20"cellpading="70">
+        <tr>
+          <td>
+      <img src="leii.JPEG"width="150"heigth="80">
+          </td>
+        </tr>
+        <tr>
+        <td>Screw,Bolts,Nuts</td>
+      </tr>
+    </table>
+     <table align="center"border="1 cellspacing="20"cellpading="80">
+        <tr>
+          <td>
+      <img src="da.jpg"width="150"heigth="80"><br>
+          </td>
+        </tr>
+        <tr>
+        <td>Hammers,Other Tools</td>
+      </tr>
+    </table>
+       <table align="side"border="1 cellspacing="20"cellpading="70">
+        <tr>
+          <td>
+      <img src="da.webp"width="250"heigth="90">
+          </td>
+        </tr>
+        <tr>
+        <td>Tape measure,Ruler,Tape measure</td>
+      </tr>
+    </table>
+    
+    </section>
+    
+    <section class="box">
+      <h2>Product Page</h2>
+       <table align="side"border="1 cellspacing="20"cellpading="70">
+      <tr>
+        <td>
+          <img src="Picture.JPEG Image.jpg"width="200"heigth="90">
+        </td>
+      </tr>
+      <br><br>
+        <tr>
+        <td>Pliers and Clamping Tools</td>
+      </tr>
+      </table>
+      <p><strong>Price:</strong> ph1,200
+         <p><strong>Sizes:</strong> S / M / L</p>
+      <button onclick="AddtCoart()">Add to Cart</button>
+      <button onclick="BuyNow()">Buy Now</button>
+      <p><strong>Reviews & Ratings</strong></p>
+      <ul>
+    </table>
+     <table align="side"border="1 cellspacing="20"cellpading="70">
+      <tr>
+        <td>
+          <img src="da.jpg"width="200"heigth="90">
+        </td>
+      </tr>
+      <br><br>
+        <tr>
+        <td>Pliers and Clamping Tools</td>
+      </tr>
+    </table>
+      <p><strong>Price:</strong> ph4,500
+         <p><strong>Sizes:</strong> S / M / L</p>
+      <button onclick="AddtCoart()">Add to Cart</button>
+      <button onclick="BuyNow()">Buy Now</button>
+      <p><strong>Reviews & Ratings</strong></p>
+      <ul>
+        <li>⭐️⭐️⭐️⭐️☆ - "Great quality!"</li>
+        <li>⭐️⭐️⭐️☆☆ - "Good, but slow shipping."</li>
+      </ul>
+    </section>
+
+    <section class="box">
+      <h2>Cart & Checkout</h2>
+      <p>Real-time stock tracking ✅</p>
+      <p>Auto-update 🔄</p>
+      <p>Low-stock alert ⚠️</p>
+      <h4>Inventory Management</h4>
+      <ul>
+        <li>Hammer - 10 units</li>
+        <li>Wrench - 5 units</li>
+        <li>Drill - 2 units</li>
+      </ul>
+    </section>
+
+    <section class="box">
+      <h2>Order Tracking</h2>
+      <p><strong>Status:</strong></p>
+      <button class="status-btn">Pending</button>
+      <button class="status-btn">Processing</button>
+      <button class="status-btn">Out for Delivery</button>
+      <p><strong>Notifications:</strong> Email / SMS</p>
+
+      <h4>Admin Dashboard</h4>
+      <p>📊 Sales Report</p>
+      <p>🛠 Manage Products & Pricing</p>
+      <p>💬 Customer Feedback</p>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Hardware Store
+  </footer>
+
+</body>
+</html>
